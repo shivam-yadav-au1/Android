@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
       public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
           Toast.makeText(MainActivity.this, "You clicked : " + data.get(position), Toast.LENGTH_SHORT).show();
       }
-  });
+    });
 
     }
 }
